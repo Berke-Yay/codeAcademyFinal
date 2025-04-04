@@ -141,6 +141,7 @@
 
 #todo-app-dialog .task {
     margin: 5px 0;
+    font-size: 0.9rem;
 }
 
 #todo-app-dialog .hidden {
@@ -155,7 +156,7 @@
     }
 
     #todo-app-dialog .task-form-label {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     #todo-app-dialog #title-input,

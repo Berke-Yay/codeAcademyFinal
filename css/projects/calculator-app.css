@@ -16,3 +16,7 @@
 #calculator-app-dialog #num2 {
     display: inline-block;
 }
+
+#calculator-app-dialog #result{
+    font-size: 0.8rem;
+}
