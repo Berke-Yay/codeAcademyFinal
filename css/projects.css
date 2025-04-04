@@ -31,6 +31,16 @@
   margin-bottom: 40px;
   border-radius: 3px;
   box-shadow: 0;
+  animation: expandHr 1.2s ease-out forwards;
+}
+
+@keyframes expandHr {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
 }
 
 /*Projects Section*/
@@ -120,6 +130,15 @@ dialog > i:hover{
 
   .introduction-section hr{
     width: 90%;
+  }
+
+  @keyframes expandHr {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
   }
 
   .project{
